@@ -21,12 +21,14 @@
 					<li><a class="footer-li" href="#">공지사항</a></li>
 					<li><a class="footer-li" href="#">자주묻는질문</a></li>
 					<li><a class="footer-li" href="#">사이트소개</a></li>
+					
 				</div>
 			</div>
 			<div class="copyright">
 					<p>&copy;Copyright ©Brave Mobile Inc. All Rights Reserved.</p>
 			</div>
 		</div>
+		
 	</footer>
 
 </body>

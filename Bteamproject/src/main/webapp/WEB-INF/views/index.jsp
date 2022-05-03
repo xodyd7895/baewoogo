@@ -19,39 +19,39 @@
 		<section class="category">
 			<ul class="category-list">
 				<li class="category-box">
-					<a href="#"><div href="#" class="category-icon">
+					<a href="designservice"><div class="category-icon">
 						<img src="resources/images/design.png" alt="design">
-						<p>분야1</p>
+						<p>디자인</p>
 					</div></a>
 				</li>
 				<li class="category-box">
-					<a href="#"><div href="#" class="category-icon">
+					<a href="workservice"><div class="category-icon">
 						<img src="resources/images/exercise.png" alt="exercise">
-						<p>분야2</p>
+						<p>운동</p>
 					</div></a>
 				</li>
 				<li class="category-box">
-					<a href="#"><div href="#" class="category-icon">
+					<a href="musicservice"><div class="category-icon">
 						<img src="resources/images/vocal.png" alt="vocal">
-						<p>분야3<p>
+						<p>음악<p>
 					</div></a>
 				</li>
 				<li class="category-box">
-					<a href="#"><div class="category-icon">
+					<a href="investservice"><div class="category-icon">
 						<img src="resources/images/money.png" alt="money">
-						<p>분야4</p>
+						<p>투자</p>
 					</div></a>
 				</li>
 				<li class="category-box">
-					<a href="#"><div class="category-icon">
+					<a href="studyservice"><div class="category-icon">
 						<img src="resources/images/study.png" alt="study">
-						<p>분야5</p>
+						<p>공부</p>
 					</div></a>
 				</li>
 				<li class="category-box">
-					<a href="#"><div class="category-icon">
+					<a href="gameservice"><div class="category-icon">
 						<img src="resources/images/game.png" alt="game">
-						<p>분야6</p>
+						<p>게임</p>
 					</div></a>
 				</li>
 			</ul>
@@ -114,6 +114,7 @@
 					</div>
 				</a>
 			</div>
+			
 		</section>
 	</main>
 	<jsp:include page="footer.jsp"></jsp:include>
