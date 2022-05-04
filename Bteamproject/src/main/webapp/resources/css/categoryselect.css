@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+	
+}
+body {
+    margin: 0;
+    font-family: Noto Sans KR,Malgun Gothic,-apple-system,Segoe UI,Roboto,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #323232;
+    background-color: #fff;
+}
+
+/* 배너 */
+
+.banner-box h1{
+	position:relative;
+	box-sizing: border-box;
+	font-size: 3.5rem;
+	}
+h2{
+	font-weight: bold;
+	margin: 0;
+	letter-spacing: normal;
+}
+h5{
+	font-size: 1.375rem;
+	margin:0;
+}
+	
+.banner{
+	width: 100%;
+	height: 50vh;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: block;
+	
+}
+.banner-image{ border: 2px solid red;
+	border-radius: 8px;
+	display: block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 70%;
+	margin-left:15%;
+	height: 100%;
+	align-content: left;
+	
+}
+.banner-box { border: 2px solid black;
+	margin-top:0px;
+	position: absolute;
+	width: 100%;
+	height:300px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-90%);
+    max-width: 43.75rem;
+    text-align: left;
+    padding: 0 1rem;
+    box-sizing: border-box;
+	display: block;
+	vertical-align: middle;
+	color:white;
+}
+
+
+.banner-image img{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	box-sizing: border-box;
+
+}
+
+.asksection{ border: 2px solid red;
+	width:100%;
+	padding:0;
+	height:800px;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: block;
+	
+}
+
+.ask-box{border: 2px solid yellow;
+	
+	width:70%;
+	margin:0 auto;
+	height:800px;
+	box-sizing: border-box;
+	display:flex;
+	flex-wrap: wrap;
+}
+

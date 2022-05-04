@@ -14,15 +14,15 @@
 	<main class="main">
 		<section class="banner">
 			<div class="banner-image">
-				<img src="resources/images/게임배너.png">
-					<div class="banner-box">
-						
-						<div class="banner-search">
-							<input type="search" id="search" placeholder="검색하시겠어요?">
-						</div>
-						<h1>SERVICE 게임</h1>
-						
+				
+				<div class="banner-box">
+					<div class="banner-search">
+					<input type="search" id="search" placeholder="검색하시겠어요?">
 					</div>
+					<h1>SERVICE 게임</h1>
+				</div>
+				<img src="resources/images/게임배너.png">
+				
 			</div>
 		</section>
 		<!-- 분야 추천 -->

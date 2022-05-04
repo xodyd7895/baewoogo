@@ -14,15 +14,15 @@
 	<main class="main">
 		<section class="banner">
 			<div class="banner-image">
-				<img src="resources/images/디자인배너.png">
-					<div class="banner-box">
-						
-						<div class="banner-search">
-							<input type="search" id="search" placeholder="검색하시겠어요?">
-						</div>
-						<h1>SERVICE 디자인</h1>
-						
+				
+				<div class="banner-box">
+					<div class="banner-search">
+					<input type="search" id="search" placeholder="검색하시겠어요?">
 					</div>
+					<h1>SERVICE 디자인</h1>
+				</div>
+				<img src="resources/images/디자인배너.png">
+				
 			</div>
 		</section>
 		<!-- 분야 추천 -->
@@ -71,7 +71,7 @@
 		<section class="popular-sec">
 			<div  class="popular">
 						<div class="popular-box">
-							<a href="#">
+							<a href="categoryselect">
 								<div class="popular-image" href="#">
 									<img src="resources/images/시각.png" alt="시각-영상">
 								</div>
