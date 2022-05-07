@@ -19,6 +19,7 @@
 					<div class="banner-search">
 					<input type="search" id="search" placeholder="검색하시겠어요?">
 					</div>
+					<span href="#"><button>검색</button></span>
 					<h1>SERVICE 디자인</h1>
 				</div>
 				<img src="resources/images/디자인배너.png">
@@ -71,7 +72,7 @@
 		<section class="popular-sec">
 			<div  class="popular">
 						<div class="popular-box">
-							<a href="categoryselect">
+							<a href="siyoung">
 								<div class="popular-image" href="#">
 									<img src="resources/images/시각.png" alt="시각-영상">
 								</div>
@@ -81,7 +82,7 @@
 							</a>
 							</div>
 						<div class="popular-box">
-							<a href="#">
+							<a href="sankyung">
 								<div class="popular-image">
 									<img src="resources/images/산업.png" alt="산업-경제">
 								</div>
@@ -91,7 +92,7 @@
 							</a>
 							</div>
 						<div class="popular-box">
-							<a href="#">
+							<a href="hwansil">
 								<div class="popular-image">
 										<img src="resources/images/환경.png" alt="환경-실외">
 									</div>
@@ -101,7 +102,7 @@
 							</a>
 							</div>
 						<div class="popular-box">
-							<a href="#">
+							<a href="faui">
 								<div class="popular-image">
 										<img src="resources/images/패션.png" alt="패션-의류">
 									</div>
@@ -117,7 +118,7 @@
 			<div class="service-box">
 				<div class="service-aa" id="service">
 					<li><span class="aa-title">시각</span></li>
-					<li><a class="aa-li" href="#">영상</a></li>
+					<li><a class="aa-li" href="siyoung">영상</a></li>
 					<li><a class="aa-li" href="#">그래픽</a></li>
 					<li><a class="aa-li" href="#">일러스트</a></li>
 					<li><a class="aa-li" href="#">웹</a></li>
@@ -125,18 +126,18 @@
 				</div>
 				<div class="service-bb" id="service">
 					<li><span class="bb-title">산업</span></li>
-					<li><a class="bb-li" href="#">경제</a></li>
+					<li><a class="bb-li" href="sankyung">경제</a></li>
 					<li><a class="bb-li" href="#">문화</a></li>
 					<li><a class="bb-li" href="#">공학</a></li>
 				</div>
 				<div class="service-cc" id="service">
 					<li><span class="cc-title">패션</span></li>
-					<li><a class="cc-li" href="#">의류</a></li>
+					<li><a class="cc-li" href="faui">의류</a></li>
 					<li><a class="cc-li" href="#">가방</a></li>
 				</div>
 				<div class="service-dd" id="service">
 					<li><span class="dd-title">환경</span></li>
-					<li><a class="dd-li" href="#">실외</a></li>
+					<li><a class="dd-li" href="hwansil">실외</a></li>
 					<li><a class="dd-li" href="#">공간활용</a></li>
 				</div>
 			

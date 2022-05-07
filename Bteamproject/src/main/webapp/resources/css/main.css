@@ -31,6 +31,7 @@ body {
 .header-main{
 	width: 70%;
     display: flex;
+    justify-content:space-between;
     align-items: center;
     box-sizing: border-box;
     background-color: #fff;

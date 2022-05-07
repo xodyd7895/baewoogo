@@ -19,6 +19,7 @@
 					<div class="banner-search">
 					<input type="search" id="search" placeholder="검색하시겠어요?">
 					</div>
+					<span href="#"><button>검색</button></span>
 					<h1>SERVICE 운동</h1>
 				</div>
 				<img src="resources/images/운동배너.png">
@@ -71,7 +72,7 @@
 		<section class="popular-sec">
 			<div  class="popular">
 				<div class="popular-box">
-				<a href="#">
+				<a href="golf">
 					<div class="popular-image">
 						<img src="resources/images/골프.png" alt="구기종목-골프">
 					</div>
@@ -81,7 +82,7 @@
 				</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="health">
 					<div class="popular-image">
 						<img src="resources/images/헬스.png" alt="관리-헬스">
 					</div>
@@ -91,7 +92,7 @@
 				</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="yoga">
 					<div class="popular-image">
 						<img src="resources/images/요가.png" alt="관리-요가">
 					</div>
@@ -101,7 +102,7 @@
 				</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="tennis">
 					<div class="popular-image">
 						<img src="resources/images/테니스.png" alt="구기종목-테니스">
 					</div>
@@ -120,15 +121,15 @@
 					<li><a class="aa-li" href="#">축구</a></li>
 					<li><a class="aa-li" href="#">야구</a></li>
 					<li><a class="aa-li" href="#">농구</a></li>
-					<li><a class="aa-li" href="#">테니스</a></li>
-					<li><a class="aa-li" href="#">골프</a></li>
+					<li><a class="aa-li" href="tennis">테니스</a></li>
+					<li><a class="aa-li" href="golf">골프</a></li>
 					<li><a class="aa-li" href="#">볼링</a></li>
 					<li><a class="aa-li" href="#">당구</a></li>
 				</div>
 				<div class="service-bb" id="service">
 					<li><span class="care-title">관리</span></li>
-					<li><a class="bb-li" href="#">요가</a></li>
-					<li><a class="bb-li" href="#">헬스</a></li>
+					<li><a class="bb-li" href="yoga">요가</a></li>
+					<li><a class="bb-li" href="health">헬스</a></li>
 					<li><a class="bb-li" href="#">필라테스</a></li>
 				</div>
 				<div class="service-bb" id="service">

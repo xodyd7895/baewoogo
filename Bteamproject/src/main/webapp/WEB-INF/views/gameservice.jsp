@@ -19,6 +19,7 @@
 					<div class="banner-search">
 					<input type="search" id="search" placeholder="검색하시겠어요?">
 					</div>
+					<span href="#"><button>검색</button></span>
 					<h1>SERVICE 게임</h1>
 				</div>
 				<img src="resources/images/게임배너.png">
@@ -71,7 +72,7 @@
 		<section class="popular-sec">
 			<div  class="popular">
 				<div class="popular-box">
-				<a href="#">
+				<a href="lol">
 					<div class="popular-image">
 						<img src="resources/images/PC.png" alt="PC-롤">
 					</div>
@@ -81,7 +82,7 @@
 					</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="badook">
 					<div class="popular-image">
 						<img src="resources/images/보드.png" alt="보드-바둑">
 					</div>
@@ -91,7 +92,7 @@
 					</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="fear">
 					<div class="popular-image">
 						<img src="resources/images/VR.png" alt="VR">
 					</div>
@@ -101,7 +102,7 @@
 					</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="squid">
 					<div class="popular-image">
 						<img src="resources/images/오징어.png" alt="오징어-무궁화">
 					</div>
@@ -116,25 +117,25 @@
 			<div class="service-box">
 				<div class="service-aa" id="service">
 					<li><span class="aa-title">PC</span></li>
-					<li><a class="aa-li" href="#">롤</a></li>
+					<li><a class="aa-li" href="lol">롤</a></li>
 					<li><a class="aa-li" href="#">스타</a></li>
 					<li><a class="aa-li" href="#">피파</a></li>
 					<li><a class="aa-li" href="#">배그</a></li>
 				</div>
 				<div class="service-bb" id="service">
 					<li><span class="bb-title">보드</span></li>
-					<li><a class="bb-li" href="#">바둑</a></li>
+					<li><a class="bb-li" href="badook">바둑</a></li>
 					<li><a class="bb-li" href="#">체스</a></li>
 					<li><a class="bb-li" href="#">장기</a></li>
 				</div>
 				<div class="service-cc" id="service">
 					<li><span class="cc-title">오징어</span></li>
-					<li><a class="cc-li" href="#">무궁화</a></li>
+					<li><a class="cc-li" href="squid">무궁화</a></li>
 					<li><a class="cc-li" href="#">줄다리기</a></li>
 				</div>
 				<div class="service-cc" id="service">
 					<li><span class="cc-title">VR</span></li>
-					<li><a class="cc-li" href="#">공포체험</a></li>
+					<li><a class="cc-li" href="fear">공포체험</a></li>
 					<li><a class="cc-li" href="#">요리하기</a></li>
 					<li><a class="cc-li" href="#">심해탐험</a></li>
 				</div>

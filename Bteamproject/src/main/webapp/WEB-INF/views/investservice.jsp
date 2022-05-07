@@ -19,6 +19,7 @@
 					<div class="banner-search">
 					<input type="search" id="search" placeholder="검색하시겠어요?">
 					</div>
+					<span href="#"><button>검색</button></span>
 					<h1>SERVICE 투자</h1>
 				</div>
 				<img src="resources/images/투자배너.png">
@@ -71,7 +72,7 @@
 		<section class="popular-sec">
 			<div  class="popular">
 				<div class="popular-box">
-				<a href="#">
+				<a href="seoul">
 					<div class="popular-image">
 						<img src="resources/images/부동산.png" alt="부동산-서울">
 					</div>
@@ -81,7 +82,7 @@
 					</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="actual1">
 					<div class="popular-image">
 						<img src="resources/images/주식.png" alt="주식-현물">
 					</div>
@@ -91,7 +92,7 @@
 				</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="actual2">
 					<div class="popular-image">
 						<img src="resources/images/코인.png" alt="가상화폐">
 					</div>
@@ -101,7 +102,7 @@
 					</a>
 				</div>
 				<div class="popular-box">
-				<a href="#">
+				<a href="gold">
 					<div class="popular-image">
 						<img src="resources/images/금.png" alt="기타-금">
 					</div>
@@ -116,25 +117,25 @@
 			<div class="service-box">
 				<div class="service-aa" id="service">
 					<li><span class="aa-title">부동산</span></li>
-					<li><a class="aa-li" href="#">서울</a></li>
+					<li><a class="aa-li" href="seoul">서울</a></li>
 					<li><a class="aa-li" href="#">경기</a></li>
 					<li><a class="aa-li" href="#">강원도</a></li>
 					<li><a class="aa-li" href="#">경상도</a></li>
 				</div>
 				<div class="service-bb" id="service">
 					<li><span class="bb-title">주식</span></li>
-					<li><a class="bb-li" href="#">현물</a></li>
+					<li><a class="bb-li" href="actual1">현물</a></li>
 					<li><a class="bb-li" href="#">국내ETF</a></li>
 					<li><a class="bb-li" href="#">해외</a></li>
 				</div>
 				<div class="service-cc" id="service">
 					<li><span class="cc-title">가상화폐</span></li>
-					<li><a class="cc-li" href="#">현물</a></li>
+					<li><a class="cc-li" href="actual2">현물</a></li>
 					<li><a class="cc-li" href="#">선물</a></li>
 				</div>
 				<div class="service-dd" id="service">
 					<li><span class="dd-title">기타</span></li>
-					<li><a class="dd-li" href="#">금</a></li>
+					<li><a class="dd-li" href="gold">금</a></li>
 					<li><a class="dd-li" href="#">스타트업</a></li>
 				</div>
 			

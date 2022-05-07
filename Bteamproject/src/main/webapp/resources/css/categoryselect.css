@@ -18,83 +18,89 @@ body {
 
 /* 배너 */
 
-.banner-box h1{
-	position:relative;
-	box-sizing: border-box;
-	font-size: 3.5rem;
-	}
-h2{
-	font-weight: bold;
-	margin: 0;
-	letter-spacing: normal;
-}
-h5{
-	font-size: 1.375rem;
-	margin:0;
-}
-	
-.banner{
+
+.banner{ 
 	width: 100%;
-	height: 50vh;
+	height: 400px;
 	background-color: #fff;
 	box-sizing: border-box;
 	display: block;
 	
 }
-.banner-image{ border: 2px solid red;
+.banner-image{ 
 	border-radius: 8px;
-	display: block;
+	display: flex;
+	flex-wrap:wrap;
 	vertical-align: middle;
 	box-sizing: border-box;
 	width: 70%;
-	margin-left:15%;
-	height: 100%;
-	align-content: left;
+	height: 400px;
+	margin-left: 15%;
+	align-content: center;
+	vertical-align: middle;
+	position:relative;
 	
 }
-.banner-box { border: 2px solid black;
-	margin-top:0px;
-	position: absolute;
-	width: 100%;
-	height:300px;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-90%);
-    max-width: 43.75rem;
-    text-align: left;
-    padding: 0 1rem;
-    box-sizing: border-box;
-	display: block;
-	vertical-align: middle;
+.banner-box { 
+	width:100%;
+	height: 300px;
+	text-align: center;
+	box-sizing: border-box;
 	color:white;
-}
+	position: absolute;
+	margin:0;
+	z-index:1;
 
+}
 
 .banner-image img{
 	width: 100%;
-	height: 100%;
+	height: 400px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.banner-box h1{
 	position:relative;
 	box-sizing: border-box;
+	font-size: xx-large;
+	margin-top:150px;
+	}
+.banner-box h5{font-size: xx-large;}
 
-}
+/*설문 영역*/
 
-.asksection{ border: 2px solid red;
+.asksection{
 	width:100%;
-	padding:0;
-	height:800px;
-	background-color: #fff;
-	box-sizing: border-box;
-	display: block;
+	height:600px;
 	
 }
-
-.ask-box{border: 2px solid yellow;
-	
+.ask-box{
 	width:70%;
-	margin:0 auto;
-	height:800px;
-	box-sizing: border-box;
+	height: 600px;
+	margin: 0 auto;
 	display:flex;
-	flex-wrap: wrap;
+}
+.ask{ border: 2px solid black;
+	width:50%;
+	height: 100%;
+	margin:0 auto;
+	display: inline-block;
+}
+.text{
+	width:50%;
+	height: 100%;
+	margin:0 auto;
+	display: inline-block;
 }
 
+.text p {
+	color:#737373;
+	margin-left:30px;
+	margin-top: 20px;
+	}
+.text h4{
+	font-size: large;
+	margin-top: 20px;
+	margin-left:30px;
+	}
