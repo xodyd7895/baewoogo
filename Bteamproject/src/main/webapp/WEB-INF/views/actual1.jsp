@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" href="resources/css/categoryselect.css" />
 </head>
-<body>
+<body overflow: hidden;>
 <jsp:include page="header.jsp"></jsp:include>
 	<main class="main">
 		<section class="banner">
@@ -26,7 +26,7 @@
 		<section class="asksection">
 			<div class="ask-box">
 				<div class="ask">
-				
+					<iframe src="useranw_test" id="myframe"></iframe>	
 				</div>
 				<div class="text">
 					<h4>숨고는 어떤 곳인가요?</h4><br>

@@ -22,7 +22,7 @@
 				<ul class="nav-list">
 					<li><a href="indexlogin">로그인</a></li>
 					<li><a href="#">회원가입</a></li>
-					<li><a href="#">고수가입</a></li>
+					<li><a href="gosusLogin_index">고수가입</a></li>
 				</ul>	
 			</nav>
 		</div>

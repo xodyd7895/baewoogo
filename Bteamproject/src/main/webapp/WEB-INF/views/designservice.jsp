@@ -16,10 +16,7 @@
 			<div class="banner-image">
 				
 				<div class="banner-box">
-					<div class="banner-search">
-					<input type="search" id="search" placeholder="검색하시겠어요?">
-					</div>
-					<span href="#"><button>검색</button></span>
+					
 					<h1>SERVICE 디자인</h1>
 				</div>
 				<img src="resources/images/디자인배너.png">
