@@ -291,15 +291,18 @@ h2{
 	height: 70%;
 	margin: 0 5%;
 }
+
 .footer-title{
 	display: block;
 	font-weight: bolder;
 	margin-bottom: 10px;	
 	color: black;
 }
+
 .footer-li{
 	text-decoration: none;
 }
+
 .footer-right a:link{
 	color: grey;
 }
