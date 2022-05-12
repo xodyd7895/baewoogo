@@ -18,7 +18,9 @@
     min-height: 100%;
     --gnb-height: 72px;
 }
- .header-inner {margin-bottom: -50px !important;}
+
+ .header-inner {margin-bottom: -50px !important;
+ }
 body {
     margin: 0;
     font-family: Noto Sans KR,Malgun Gothic,-apple-system,Segoe UI,Roboto,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
@@ -31,10 +33,10 @@ body {
 .header-main{
 	width: 70%;
     display: flex;
-    justify-content:space-between;
     align-items: center;
     box-sizing: border-box;
     background-color: #fff;
+    font-size: medium;
 }
 .header-main img{
 	width: 100px;
@@ -54,6 +56,7 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
     box-sizing: border-box;
+   
 }
 .header-search #search{
 	width: 100%;
@@ -106,25 +109,26 @@ li :visited {
 /* index */
 .banner{
 	width: 100%;
-	height: 400px;
+	height: 50%;
 	background-color: #fff;
 	box-sizing: border-box;
 	display: block;
 	
 }
-.banner-image{ 
+.banner-image{
 	border-radius: 8px;
 	display: block;
 	vertical-align: middle;
 	box-sizing: border-box;
 	width: 70%;
-	height: 400px;
+	height: 0%;
 	margin-left: 15%;
+	margin-top: 14px;
 	
 }
 .banner-image img{
 	width: 100%;
-	height: 400px;
+	height: 0%;
 }
 
 .category{
@@ -272,10 +276,10 @@ h2{
 	display: block;
 	bottom: 0;
 	border-top: 0.0625rem solid #e1e1e1;
-	border-top-width:100%;
 	background: #fff;
     padding: 1.3125rem 2.5rem;
-    height: 200px;
+    height: 300px;
+    width: 100%;
     color: grey;
 }
 .footer-container{
@@ -288,8 +292,9 @@ h2{
 .footer-box{
 	display: block;
 	width: 90%;
-	height: 60%;
+	height: 70%;
 	margin: 0 5%;
+	font-size: medium;
 }
 .footer-title{
 	display: block;
@@ -317,5 +322,24 @@ h2{
 	margin: 0 5%;
 	clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
