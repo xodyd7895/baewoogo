@@ -28,7 +28,7 @@
 							<div id="myDropdown" class="dropdown-content">
 								  	<div class="name"><div class="name-box"><h3>oo고수님</h3></div></div>
 								    <div class="li0" ><a href="gosuprofile">프로필 관리</a></div>
-								    <div class="li1" ><a href="gosumypage">마이페이지</a></div>
+								    <div class="li1" ><a href="mypage">마이페이지</a></div>
 								    <hr class="header-line">
 								    <div class="bottom-li">
 								    	<div class="li2" ><a href="#">사용자로 가입</a></div>
