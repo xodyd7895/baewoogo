@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+.title{
+	font-size: 40px;
+}
+.mypage_sec1{
+	position: relative;
+	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+	margin:0 25%;
+}
+
+.mypage_pr{
+	position: relative;
+	width: 15%;
+	height: 100%;
+	box-sizing: border-box;
+	margin:0 42.5% auto;
+	margin-top: 70px;
+}
+
+.img-pro{
+	width: 100px;
+	height: 100px;
+	justify-content: center;
+}
+.mypage_sec2{
+	position: relative;
+	display: block;
+	width: 50%;
+	height: 100%;
+	margin: 0 25%;
+}
+.mypage_sec2 ul{
+	padding: 0;
+}
+.item-container, .delete-account{
+	position: relative;
+	display: block;
+	margin-top: 30px;
+	font-weight: bolder;
+	
+}	
+.item-container{
+	position: relative;
+	display: block;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 20px;
+} 
+.item:hover{
+	background-color: #e4e4e4;
+	border-radius: 2px;
+}
+.item{
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+.mypage-icon{	
+	float: right;
+}
+.item-title{
+	color: #737373;
+	margin-bottom: 10px;
+}
+.item-info{
+	display: inline-block;
+	width: 100%;
+}	
+a{
+	text-decoration: none;
+}
+.delete-account{
+	margin-top: 80px;
+}	
+	
+	
+/* modal---------------------------------------- */
+
+
+.modal {
+  width: 350px;
+  background: white;
+  border: 2px solid #ccc;
+  box-shadow: -2rem 2rem 2rem rgba(0, 0, 0, 0.2);
+  filter: blur(0);
+  transform: scale(1);
+  opacity: 1; 
+  visibility: visible;
+  border-radius: 5px;
+  position: absolute;
+  margin: 0 17%;
+  top:25%;
+}
+/* .bac.set{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #e1e1e1;
+	z-index: 1;
+	background-color: rgb(0,0,0);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.bac.set{
+  opacity: 0;
+  visibility: hidden;
+  filter: blur(8px);
+  transform: scale(0.33);
+}  */
+
+.modal.off {
+  opacity: 0;
+  visibility: visible;
+  filter: blur(8px);
+  transform: scale(0.33);
+  box-shadow: 1rem 0 0 rgba(0, 0, 0, 0.2);
+  background-color: red;
+}
+ @supports (offset-rotate: 0deg) {
+  .modal {
+    offset-rotate: 0deg;
+    offset-path: path("M 250,100 S -300,500 -700,-200");
+  }
+  .modal.off {
+    offset-distance: 100%;
+  }
+}
+@media (prefers-reduced-motion) {
+  .modal {
+    offset-path: none;
+  } 
+}
+.modal h2 {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+}
+.modal .content {
+  padding: 1rem;
+  text-align: center;
+}
+.modal .actions {
+  border-top: 1px solid #ccc;
+  background: #eee;
+  padding: 0.5rem 1rem;
+  display:flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+.modal .actions button {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  line-height: 1;
+  margin-right:10px;
+}
+.modal .actions button:hover{
+	cursor:pointer;
+}
+#button1 {
+	font-size:large;
+	font-weight: bold;
+}
+#button1:hover {
+	background-color: #fff;
+}
+#button2 {
+	font-size:large;
+	font-weight: bold;
+}
+#button2:hover {
+	background-color: darkgrey;
+}
+
+
+#centered-toggle-button {
+  position: relative;
+}
+
+
