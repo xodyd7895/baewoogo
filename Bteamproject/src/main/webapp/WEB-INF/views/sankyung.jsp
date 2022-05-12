@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" href="resources/css/categoryselect.css" />
 </head>
-<body>
+<body overflow: hidden;>
 <jsp:include page="header.jsp"></jsp:include>
 	<main class="main">
 		<section class="banner">
@@ -19,17 +19,17 @@
 					<h5>2,310</h5>
 					<p>활동 고수</p>
 				</div>
-				<img src="resources/images/분야설문.png">
+			<img src="resources/images/분야설문.png">
 				
 			</div>
 		</section>
 		<section class="asksection">
 			<div class="ask-box">
 				<div class="ask">
-				
+					<iframe src="useranw_test" id="myframe"></iframe>
 				</div>
 				<div class="text">
-					<h4>숨고는 어떤 곳인가요?</h4><br>
+					<h4>배우고싶당은 어떤 곳인가요?</h4><br>
 					<p>서비스가 필요한 고객과 서비스를 제공하는 숨은 고수를 쉽고
 					<br>빠르게 연결해드리는 전문가 매칭 서비스입니다.
 					1분 내외의 요청서를 작성하면, 여러 고수님들이 맞춤형 견적을
