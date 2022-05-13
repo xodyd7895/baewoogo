@@ -276,11 +276,12 @@ h2{
 	display: block;
 	bottom: 0;
 	border-top: 0.0625rem solid #e1e1e1;
+	border-top-width:100%;
 	background: #fff;
     padding: 1.3125rem 2.5rem;
-    height: 300px;
-    width: 100%;
+    height: 200px;
     color: grey;
+    
 }
 .footer-container{
 	display: block;
@@ -325,23 +326,6 @@ h2{
 	margin: 0 5%;
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
