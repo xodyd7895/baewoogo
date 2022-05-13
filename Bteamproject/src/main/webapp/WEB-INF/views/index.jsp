@@ -61,7 +61,7 @@
 				<div class="gosu-text">
 					<h2>인기고수</h2>
 				</div>
-				<a href="#">
+				<a href="gosuprofile">
 					<div class="gosu-profile" href="#">
 						<div class="gosu-photo">
 							<img src="resources/images/여자1.jpeg">
