@@ -19,6 +19,7 @@
 				<div class="footer-right">
 					<li><span class="footer-title">고객센터</span></li>
 					<li><a class="footer-li" href="#">공지사항</a></li>
+					<li><a class="footer-li" href="#">게시판</a></li>
 					<li><a class="footer-li" href="#">자주묻는질문</a></li>
 					<li><a class="footer-li" href="#">사이트소개</a></li>
 					
