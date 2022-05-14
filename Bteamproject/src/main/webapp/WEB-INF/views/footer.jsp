@@ -18,16 +18,11 @@
 				</div>
 				<div class="footer-right">
 					<li><span class="footer-title">고객센터</span></li>
-<<<<<<< HEAD
 					<li><a class="footer-li" href="http://localhost:9000/Bteamproject/notice">공지사항</a></li>
+					<li><a class="footer-li" href="http://localhost:9000/Bteamproject/forum">게시판</a></li>
 					<li><a class="footer-li" href="http://localhost:9000/Bteamproject/ques">자주묻는질문</a></li>
 					<li><a class="footer-li" href="http://localhost:9000/Bteamproject/intro">사이트소개</a></li>
-=======
-					<li><a class="footer-li" href="#">공지사항</a></li>
-					<li><a class="footer-li" href="#">게시판</a></li>
-					<li><a class="footer-li" href="#">자주묻는질문</a></li>
-					<li><a class="footer-li" href="#">사이트소개</a></li>
->>>>>>> branch 'master' of https://github.com/CoMoNam/baewoogo.git
+
 					
 				</div>
 			</div>
