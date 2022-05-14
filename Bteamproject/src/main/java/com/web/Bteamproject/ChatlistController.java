@@ -21,3 +21,19 @@ class requestChatController {
 		return "requestChat";
 	}
 }
+
+@Controller
+class ChatFormController{
+@RequestMapping(value="/chatform", method=RequestMethod.GET)
+public String chatform() {
+	return "chatform";
+}
+}
+@Controller
+class SendingChatController{
+@RequestMapping(value="/sendingChat", method=RequestMethod.GET)
+public String sendingChat() {
+	return "sendingChat";
+}
+}
+
