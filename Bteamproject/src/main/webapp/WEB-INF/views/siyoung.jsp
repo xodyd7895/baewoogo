@@ -19,7 +19,7 @@
 					<h5>2,518</h5>
 					<p>활동 고수</p>
 				</div>
-				<img src="resources/images/midia.png">
+				<img src="resources/images/분야설문.png">
 				
 		</section>
 		<section class="asksection">
