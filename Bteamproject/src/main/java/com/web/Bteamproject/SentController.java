@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class ChatFormController {
+public class SentController {
 
-	@RequestMapping(value="/chatform", method=RequestMethod.GET)
-	public String chatform() {
-		return "chatform";
+	@RequestMapping(value="/sent", method=RequestMethod.GET)
+	public String sent() {
+		return "sent";
 	}
 }
