@@ -13,7 +13,7 @@
 	<header class="header">
 		<div class="header-main">
 			<div class="header-left">
-				<a href="gosuindex"><img src="resources/images/logo.png" alt="logo"></a>
+				<a href="userindex"><img src="resources/images/logo.png" alt="logo"></a>
 				<div class="header-search">
 					<input type="search" id="search" placeholder="어떤 서비스가 필요하세요?">
 				</div>
