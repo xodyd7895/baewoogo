@@ -21,7 +21,7 @@
 			<nav class="header-right">
 				<ul class="nav-list">
 					<li><a href="indexlogin">로그인</a></li>
-					<li><a href="#">회원가입</a></li>
+					<li><a href="register">회원가입</a></li>
 					<li><a href="gosusLogin_index">고수가입</a></li>
 				</ul>	
 			</nav>
