@@ -27,7 +27,7 @@
                 <div class="text-muted small ml-3">
                   <div>날짜 : <strong>2022.05.03</strong></div>
                   <div>게시판 번호: <strong>1</strong></div>
-                  <div>회원번호: <strong>1</strong></div>
+               
                 </div>
               </div>
             </div>

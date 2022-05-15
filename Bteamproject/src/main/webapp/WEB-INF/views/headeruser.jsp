@@ -21,7 +21,7 @@
 			<nav class="header-right">
 				<ul class="nav-list">
 					<li><a href="sent">받은견적</a></li>
-					<li><a href="http://localhost:9000/Bteamproject/chatlist">채팅</a></li>
+					<li><a href="http://localhost:9000/Bteamproject/requestChat">채팅</a></li>
 					
 						<div class="dropdown">
 							<img href="#" onclick="myFunction()" class="dropbtn" style="width: 30px; height: 30px;" alt=" 프로필" src="resources/images/profile.png">

@@ -17,7 +17,7 @@
 </head>
 <body id="chat-body">
 <!-- header -->
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="headeruser.jsp"></jsp:include>
 
 <div class="container" id="chat-container">
 
@@ -53,7 +53,7 @@
 				    <div class="col-md-3" id="chat-img"><img class="chat-img" src="https://i.pinimg.com/originals/a7/ee/b8/a7eeb85a1d27390ebdf770f8cf31e434.jpg" alt="image" style="width:58px;"></div>
 				    <a href="http://localhost:9000/Bteamproject/chatform" class="chat-enter"><div class="chat-text">
 				    	<p class="col-md-3" id="chat-name">김태용</p>
-				    	<div class="col-md-3" id="chat-msg">안녕하세요...</div>
+				    	<div class="col-md-3" id="chat-msg"></div>
 				   	</div></a>
 				    <button type="button" aria-label="Close" class="btn col-md-3" id="btn-close" style="background-color:white;"><img src="https://cdn-icons-png.flaticon.com/512/458/458594.png" style="width:33px;"></button>
 				    <button type="button" class="btn btn col-md-3" id="btn-complete" data-toggle="modal" data-target="#firstmodal">거래완료</button>
@@ -66,7 +66,7 @@
 				    <div class="col-md-3" id="chat-img"><img class="chat-img" src="https://i.pinimg.com/originals/a7/ee/b8/a7eeb85a1d27390ebdf770f8cf31e434.jpg" alt="image" style="width:58px;"></div>
 				    <a href="http://localhost:9000/Bteamproject/chatform" class="chat-enter"><div class="chat-text">
 				    	<p class="col-md-3" id="chat-name">김태용</p>
-				    	<div class="col-md-3" id="chat-msg">안녕하세요...</div>
+				    	<div class="col-md-3" id="chat-msg"></div>
 				   	</div></a>
 				    <button type="button" aria-label="Close" class="btn col-md-3" id="btn-close" style="background-color:white;"><img src="https://cdn-icons-png.flaticon.com/512/458/458594.png" style="width:33px;"></button>
 				    <button type="button" class="btn btn col-md-3" id="btn-complete" data-toggle="modal" data-target="#firstmodal">거래완료</button>
@@ -79,7 +79,7 @@
 				    <a href="#" class="chat-enter">
 				    <div class="chat-text">
 				    	<p class="col-md-3" id="chat-name">김태용</p>
-				    	<div class="col-md-3" id="chat-msg">안녕하세요...</div>
+				    	<div class="col-md-3" id="chat-msg"></div>
 				   	</div></a>
 				    <button type="button" aria-label="Close" class="btn col-md-3" id="btn-close" style="background-color:white;"><img src="https://cdn-icons-png.flaticon.com/512/458/458594.png" style="width:33px;"></button>
 				    <button type="button" class="btn btn col-md-3" id="btn-complete" data-toggle="modal" data-target="#firstmodal">거래완료</button>
@@ -91,7 +91,7 @@
 				    <div class="col-md-3" id="chat-img"><img class="chat-img" src="https://i.pinimg.com/originals/a7/ee/b8/a7eeb85a1d27390ebdf770f8cf31e434.jpg" alt="image" style="width:58px;"></div>
 				    <a href="#" class="chat-enter"><div class="chat-text">
 				    	<p class="col-md-3" id="chat-name">김태용</p>
-				    	<div class="col-md-3" id="chat-msg">안녕하세요...</div>
+				    	<div class="col-md-3" id="chat-msg"></div>
 				   	</div></a>
 				    <button type="button" aria-label="Close" class="btn col-md-3" id="btn-close" style="background-color:white;"><img src="https://cdn-icons-png.flaticon.com/512/458/458594.png" style="width:33px;"></button>
 				    <button type="button" class="btn btn col-md-3" id="btn-complete" data-toggle="modal" data-target="#firstmodal">거래완료</button>

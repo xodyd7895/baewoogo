@@ -21,10 +21,10 @@
 <!-- chat-body -->
  <div id="app-body">
 <div class="chat-list">
-  <div class="page-header" style="margin: 25px 0 20px;">
+  <div class="page-header container">
     <div class="container">
       <section class="page-title">
-        <h3 id="chat-h3">채팅</h3>
+        <h1 id="chat-h1" style="font-weight:bold; font-size: 2em; padding-bottom:35px;">채팅</h1>
       </section>
     <section class="row no-gutters align-items-center justify-content-between">
 <!-- searchbar -->
@@ -57,7 +57,7 @@
            <p class="help-block p2">견적서를 전달하고
              <br>
             고객님과 상담을 해보세요.</p>
-            <a href="http://localhost:9000/Bteamproject/chatlist">
+            <a href="http://localhost:9000/Bteamproject/gosuchatlist">
           <button type="button" class="btn">견적서 보내기</button></a>
        </article>
      </div>
