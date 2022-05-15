@@ -20,7 +20,7 @@
 			</div>
 			<nav class="header-right">
 				<ul class="nav-list">
-					<li><a href="#">받은견적</a></li>
+					<li><a href="sent">받은견적</a></li>
 					<li><a href="http://localhost:9000/Bteamproject/chatlist">채팅</a></li>
 					
 						<div class="dropdown">
