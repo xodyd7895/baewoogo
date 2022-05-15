@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="resources/css/requests.css">
 </head>
 <body>
-<jsp:include page="headergosu.jsp"></jsp:include>
+<jsp:include page="headeruser.jsp"></jsp:include>
 	<div class="requests-main">
 		<div class="requests-title">
 			<h1>받은 견적</h1>
