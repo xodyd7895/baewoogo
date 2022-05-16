@@ -7,11 +7,23 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"type="text/javascript"> </script>
     <link rel="stylesheet" href="resources/css/forumboard.css">
-    <title></title>
-  </head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+<script>
+$(function (){
+	$("#show-comment").click(function (){
+  	$("#comment-div").toggle();
+  });
+});
 
+$(function (){
+	$("#btn-comment").click(function (){
+  	$("#comment-comment").toggle();
+  });
+});
+
+</script>
     <body id="forumwindow-body">
-    <jsp:include page="header.jsp"></jsp:include>
+    <jsp:include page="headeruser.jsp"></jsp:include>
     
      <body>
       <div class="container-fluid">
@@ -26,8 +38,7 @@
                  </div>
                 <div class="text-muted small ml-3">
                   <div>날짜 : <strong>2022.05.03</strong></div>
-                  <div>게시판 번호: <strong>1</strong></div>
-                  <div>회원번호: <strong>1</strong></div>
+                  <div>조회수: <strong>1</strong></div>
                 </div>
               </div>
             </div>
@@ -36,9 +47,9 @@
          </div>
          <div class="card-footer d-flex flex-wrap justify-content-between align-items-center px-0 pt-0 pb-3">
                            <div class="px-4 pt-3 text-muted d-inline-flex align-items-center align-middle">
-                               <i class="fa fa-heart text-danger"></i>&nbsp; <span class="align-middle">조회수:</span>
+                               <i class="fa fa-heart text-danger"></i>&nbsp; <span class="align-middle">댓글수:</span>
                               <span class="text-muted d-inline-flex align-items-center align-middle ml-4">
-                                <i class="fa fa-eye text-muted fsize-3"></i>&nbsp; <a href="#"><span class="align-middle">댓글보기</span></a>
+                                <button class="btn" id="show-comment"><i class=""><span style="color:white;">댓글보기</i></span></button>
                               </span>
                             </div>
                          
@@ -51,7 +62,7 @@
                  
                  
    <!-- comment -->
-  <div class="container-fluid" style="padding-top:0;">
+  <div class="container-fluid" style="padding-top:0; display:none;" id="comment-div">
       <div class="row">
         <div class="col-md-12">
           <div class="card mb-4">
@@ -66,18 +77,48 @@
            <p> 테스트 중입니다 </p>
            <span>2020.05.15 18:40 </span>
            <br>
-           <button class="btn">답글</button>
+           <button class="btn" id="btn-comment">답글</button>
          </div>
-         <div class="card-footer d-flex flex-wrap justify-content-between align-items-center px-0 pt-0 pb-3">
-                             <textarea class="form-control z-depth-1" style="resize: none;" type="text" placeholder="댓글을 입력해주세요."></textarea>
-                         </div>
-                       </div>
+         <div class="card-footer input-group" id="comment-comment">
+ 			<input type="text" class="form-control" placeholder="답글을 입력해주세요">
+ 			<span class="input-group-btn">
+ 			 <button class="btn" type="button" style="margin-left: 10px;">등록</button></span>
+      <!--    <textarea class="form-control" id="comment-comment" style="resize: none;" placeholder="답글을 입력해주세요"></textarea>
+         <button class="btn" style="float:right;">등록</button> -->
+         </div>
+         
+         <div class="u_cbox_reply_area"></div>
+         
+          <div class="card-body">
+            <ul>
+              <li style="list-style:none;">ID:test2</li>
+            </ul>
+           <p> 테스트 중~!!! </p>
+           <span>2020.05.13 18:40 </span>
+           <br>
+           <br>
+           <button style="float:left;" class="btn" id="btn-comment">답글</button>
+         </div>
+               </div>
                      </div>
                    </div> 
                  </div>
                  
+         
+         
+         <div class="card-footer input-group" id="show-textarea">
+          <input type="text" class="form-control z-depth-1" style="resize:none;" type="text" placeholder="게시판의 댓글을 입력해주세요">
+           <span class="input-group-btn">
+           <button class="btn" type="button" style="margin-left: 10px;">등록</button></span>
+            </div>
+                            <!--  <textarea class="form-control z-depth-1" style="resize: none;" type="text" placeholder="게시판 글의 댓글을 입력해주세요."></textarea> -->
+         
+                   
+                 
+                 
+                 
 
 <jsp:include page="footer.jsp"></jsp:include>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript">
     </body>
+    
   </html>
