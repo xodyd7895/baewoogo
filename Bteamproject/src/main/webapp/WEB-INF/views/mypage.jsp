@@ -6,6 +6,46 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="resources/css/mypage.css"/>
+<style>
+    #my_modal {
+        display: none;
+        width: 300px;
+        height:100px;
+        padding: 20px 60px;
+        background-color: #fefefe;
+        border: 1px solid #888;
+        border-radius: 15px;
+    }
+
+    #my_modal .modal_close_btn {
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        font-weight: bold;
+        color:black;
+    }
+    #my_modal .modal_close_btn:hover{
+    	cursor: pointer;
+    }
+    a:linked{
+    	font-style: none;
+    	text-decoration: none;
+    }
+    a:visited{
+    	font-style: none;
+    	text-decoration: none;
+    	color:black;
+    }
+    
+    .qwe {
+        position: absolute;
+        top: 80px;
+        right: 80px;
+        font-weight: bold;
+    }
+    
+    
+</style>
 </head>
 <body class="bacset" id="bac">
 	<jsp:include page="headeruser.jsp"></jsp:include>
@@ -64,8 +104,8 @@
 			<ul class="delete-account">
 				<div class="toggle-button" id="centered-toggle-button" onclick="change()">
 				
-					<li class="item-container">
-							<div class="item">
+					<li class="item-container" id="popup_open_btn">
+							<div class="item" >
 									계정탈퇴
 									<div class="mypage-icon">
 										<img alt="화살표" src="https://assets.cdn.soomgo.com/icons/icon-mypage-list-arrow.svg">
@@ -74,14 +114,12 @@
 					</li>
 				</div>
 			</ul> 
-				<div class="modal off" id="modal">
-	  				<h2>계정을 탈퇴 하시겠습니까?</h2>
-	  				<div class="content">계정 탈퇴 시 모든 개인정보가 삭제됩니다.</div>
-	  				<div class="actions">
-	    				<a href="#"><button class="toggle-button" id="button1">탈퇴</button></a>
-	    				<button class="toggle-button" id="button2">취소</button>
-	  				</div>
-				</div>
+			<div id="my_modal">
+				<h2>계정을 탈퇴하시겠습니까?</h2>
+				<a href="index" class="qwe">탈퇴</a>
+    			<a class="modal_close_btn">취소</a>
+			</div>
+				
 		</section>
 
 	<jsp:include page="footer.jsp"></jsp:include>

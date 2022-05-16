@@ -50,16 +50,11 @@
         </label>
         <label class="checkbox_container">
             남성
-            <input type="checkbox" checked="checked">
+            <input type="checkbox">
             <span class="checkbox_mark"></span>
         </label>
             
-        <label class="checkbox_container">
-            무관
-            <input type="checkbox" checked="checked">
-            <span class="checkbox_mark"></span>
-        </label>
-        
+       
        
        
         
