@@ -14,7 +14,7 @@
   </head>
 
   <body>
-  <jsp:include page="header.jsp"></jsp:include>
+  <jsp:include page="headeruser.jsp"></jsp:include>
     <div class="container" role="main" id="chat-container1">
       <h2>게시판 작성</h2>
        <form  id="form" method="post">

@@ -62,11 +62,11 @@
       <h2 class="text-align" data-v-e2967f32="">배우고싶으당에 가입해보세요</h2>
       <div class="line" data-v-e2967f32=""></div>
       <p class="text-align" data-v-e2967f32=""> 조건에 딱! 맞는 고수를 찾으시나요? 딱! 맞는 고객을 찾으시나요? 배우고싶으당에서 도와드리겠습니다. </p>
-      <a href="#" class="text-align login-link" data-v-e2967f32="">이미 계정이 있으신가요?</a>
+      <a href="http://localhost:9000/Bteamproject/indexlogin" class="text-align login-link" data-v-e2967f32="">이미 계정이 있으신가요?</a>
 
       <div class="signup-buttons align-center" data-v-e2967f32s>
-        <a href="#" target="_self" class="btn btn-primary me-md-2" style="color: #fff; background-color: #00c7ae; border-color: #00c7ae;" data-v-e2967f32>요청자로 가입</a>
-        <a href="#" target="_self" class="btn btn-primary" style="color: #fff; background-color: #00c7ae; border-color: #00c7ae;" data-v-e2967f32>고수로 가입</a>
+        <a href="http://localhost:9000/Bteamproject/register" target="_self" class="btn btn-primary me-md-2" style="color: #fff; background-color: #00c7ae; border-color: #00c7ae;" data-v-e2967f32>요청자로 가입</a>
+        <a href="http://localhost:9000/Bteamproject/gosusLogin_index" target="_self" class="btn btn-primary" style="color: #fff; background-color: #00c7ae; border-color: #00c7ae;" data-v-e2967f32>고수로 가입</a>
       </div>
     </div>
   </div>
