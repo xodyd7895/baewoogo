@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="resources/css/forumboard.css">
-    
     <title></title>
 
   </head>
@@ -17,7 +16,7 @@
   <body>
   <jsp:include page="header.jsp"></jsp:include>
     <div class="container" role="main" id="chat-container1">
-      <h1 style="margin-bottom:30px;">게시판 작성</h1>
+      <h2>게시판 작성</h2>
        <form  id="form" method="post">
          <div class="mb-3">
            <label for="title">제목</label>
@@ -84,10 +83,10 @@
 <textarea class="form-control" rows="5"  id="content" style="resize: none;" placeholder="내용을 입력해주세요."></textarea>
 </div>
 
-<div class="btn-group" style="width:100%; float:right;">
- <div class="filebox preview-image" style="width:100%;">
-     <input type="file" style="width:50%;" id="input-file" class="upload-hidden" multiple="multiple">
-  <button type="submit" id="btn-button"class="btn-btn" style="float:right; margin-left: 10px;">작성완료</button>
+<div class="btn-group">
+ <div class="filebox preview-image">
+     <input type="file" style="width:50%;" id="input-file" class="upload-hidden">
+  <button type="submit" id="btn-button"class="btn-btn">제출하기</button>
   <button type="dismiss"id="btn-button" class="btn-btn" style="float:right;">작성 그만하기</button>
  </div>
 </div>

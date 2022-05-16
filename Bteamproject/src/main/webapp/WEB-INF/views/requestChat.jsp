@@ -21,10 +21,10 @@
 <!-- chat-body -->
  <div id="app-body">
 <div class="chat-list">
-   <div class="page-header container">
+  <div class="page-header" style="margin: 25px 0 20px;">
     <div class="container">
       <section class="page-title">
-        <h1 id="chat-h1" style="font-weight:bold; font-size: 2em; padding-bottom:35px;">채팅</h1>
+        <h3 id="chat-h3">채팅</h3>
       </section>
     <section class="row no-gutters align-items-center justify-content-between">
 <!-- searchbar -->

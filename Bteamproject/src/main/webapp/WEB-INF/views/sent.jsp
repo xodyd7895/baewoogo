@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="resources/css/requests.css">
 </head>
 <body>
-<jsp:include page="headergosu.jsp"></jsp:include>
+<jsp:include page="headeruser.jsp"></jsp:include>
 	<div class="requests-main">
 		<div class="requests-title">
 			<h1>받은 견적</h1>
@@ -18,8 +18,8 @@
 			<ul class="requests-ul">
 				<li class="requests-li">
 					<div class="li-cont">
-						<a href="#">
-							<div class="li-img"><img alt="" src="resources/images/남자1.jpeg"> </div>
+						<a href="sentinfo">
+							<div class="li-img"><img alt="" src="resources/images/profile.png"> </div>
 							<div class="requests-info">
 								<div class="user-id">gweg3242@naver.com</div>
 								<div class="details">
@@ -38,7 +38,7 @@
 				<li class="requests-li">
 					<div class="li-cont">
 						<a href="#">
-							<div class="li-img"><img alt="" src="resources/images/여자2.jpeg"> </div>
+							<div class="li-img"><img alt="" src="resources/images/profile.png"> </div>
 							<div class="requests-info">
 								<div class="user-id">gweg3242@naver.com</div>
 								<div class="details">

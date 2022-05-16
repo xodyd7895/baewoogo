@@ -29,21 +29,11 @@ public String chatform() {
 	return "chatform";
 }
 }
-
 @Controller
 class SendingChatController{
 @RequestMapping(value="/sendingChat", method=RequestMethod.GET)
 public String sendingChat() {
 	return "sendingChat";
-}
-}
-
-
-@Controller
-class GosuChatlistController{
-@RequestMapping(value="/gosuchatlist", method=RequestMethod.GET)
-public String gosuchatlist() {
-	return "gosuchatlist";
 }
 }
 
