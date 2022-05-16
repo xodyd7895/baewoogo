@@ -17,7 +17,7 @@
     <title></title>
   </head>
   <body>
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="headergosu.jsp"></jsp:include>
 <!-- chat-body -->
  <div id="app-body">
 <div class="chat-list">
