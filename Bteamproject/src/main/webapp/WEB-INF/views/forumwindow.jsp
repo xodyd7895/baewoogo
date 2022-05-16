@@ -41,13 +41,41 @@
                                 <i class="fa fa-eye text-muted fsize-3"></i>&nbsp; <a href="#"><span class="align-middle">댓글보기</span></a>
                               </span>
                             </div>
-                           <div class="px-4 pt-3"> <button type="button" class="btn"><i class="ion ion-md-create"></i>&nbsp; 댓글달기</button>
-                           </div>
+                         
                          </div>
                        </div>
                      </div>
                    </div>
                  </div>
+                 
+                 
+                 
+   <!-- comment -->
+  <div class="container-fluid" style="padding-top:0;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-4">
+           <div class="card-header">
+            <h5>댓글</h5>
+           </div>
+          
+          <div class="card-body">
+            <ul>
+              <li style="list-style:none;">ID:test1</li>
+            </ul>
+           <p> 테스트 중입니다 </p>
+           <span>2020.05.15 18:40 </span>
+           <br>
+           <button class="btn">답글</button>
+         </div>
+         <div class="card-footer d-flex flex-wrap justify-content-between align-items-center px-0 pt-0 pb-3">
+                             <textarea class="form-control z-depth-1" style="resize: none;" type="text" placeholder="댓글을 입력해주세요."></textarea>
+                         </div>
+                       </div>
+                     </div>
+                   </div> 
+                 </div>
+                 
 
 <jsp:include page="footer.jsp"></jsp:include>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript">
