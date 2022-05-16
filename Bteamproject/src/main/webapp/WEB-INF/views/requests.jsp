@@ -18,7 +18,7 @@
 			<ul class="requests-ul">
 				<li class="requests-li">
 					<div class="li-cont">
-						<a href="#">
+						<a href="received">
 							<div class="li-img"><img alt="" src="resources/images/남자1.jpeg"> </div>
 							<div class="requests-info">
 								<div class="user-id">gweg3242@naver.com</div>
