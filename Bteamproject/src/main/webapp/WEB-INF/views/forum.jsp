@@ -24,7 +24,7 @@ a :hover{
     </style>
   </head>
   <body>
-  <jsp:include page="header.jsp"></jsp:include>
+  <jsp:include page="headeruser.jsp"></jsp:include>
   <div class="text-center">
    <h1 ><a href="#" style="text-decoration:none; color:black;">자유게시판</a></h1>
   </div>
