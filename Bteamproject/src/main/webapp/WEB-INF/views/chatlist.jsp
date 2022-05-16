@@ -17,7 +17,7 @@
 </head>
 <body id="chat-body">
 <!-- header -->
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="headeruser.jsp"></jsp:include>
 
 <div class="container" id="chat-container">
 

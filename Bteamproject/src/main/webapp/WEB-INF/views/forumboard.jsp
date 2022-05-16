@@ -14,7 +14,7 @@
   </head>
 
   <body>
-  <jsp:include page="header.jsp"></jsp:include>
+  <jsp:include page="headeruser.jsp"></jsp:include>
     <div class="container" role="main" id="chat-container1">
       <h2>게시판 작성</h2>
        <form  id="form" method="post">
@@ -87,7 +87,8 @@
  <div class="filebox preview-image">
      <input type="file" style="width:50%;" id="input-file" class="upload-hidden">
   <button type="submit" id="btn-button"class="btn-btn">제출하기</button>
-  <button type="dismiss"id="btn-button" class="btn-btn" style="float:right;">작성 그만하기</button>
+  
+ <button type="dismiss"id="btn-button" class="btn-btn" style="float:right;"><a href="http://localhost:9000/Bteamproject/forum">작성 그만하기</button></a>
  </div>
 </div>
 </form>
