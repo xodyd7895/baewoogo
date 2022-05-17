@@ -13,8 +13,7 @@
  	 <link rel="stylesheet" type="text/css" href="resources/css/my-login2.css">
 	<link rel="stylesheet" href="resources/css/progress.css" />
 	<link rel="stylesheet" href="resources/css/main.css" />
-	
-	
+
 	
 	<style>
 		input{
@@ -26,6 +25,7 @@
 		}
 
 		</style>
+		
 </head>
 <body>
 	<section class="h-100">
@@ -43,21 +43,19 @@
 					
 	
 	 
+	 
   <label class="checkbox_container">
            여성
-            <input type="checkbox">
+            <input type="checkbox" name="checkTmp" id="checkbox1" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         <label class="checkbox_container">
             남성
-            <input type="checkbox">
+            <input type="checkbox" name="checkTmp" id="checkbox2" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
             
-       
-       
-       
-        
+      
     </body>
 </html>
       
@@ -65,21 +63,20 @@
         
     		
 							<div class="writer_btn">
-									<button input type="button"class="btn_enter" style="float:right" id="useranw2" onclick="location.href='useranw2'">
+									<button input type="button"class="btn_enter" id="next" disabled style="float:right" onclick="location.href='useranw2'">
 									다음
 									</button>
-						
 			
-								
+									</div>					
 							</form>
 						</div>
 					</div>
-			
 					</div>
+			
+					
 				</div>
 	
 	</section>
-	
 	
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

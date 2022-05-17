@@ -13,7 +13,8 @@
  	 <link rel="stylesheet" type="text/css" href="resources/css/my-login2.css">
 	<link rel="stylesheet" href="resources/css/progress.css" />
 	<link rel="stylesheet" href="resources/css/main.css" />
-	
+
+
 	
 	<style>
 		input{
@@ -25,6 +26,8 @@
 		}
 
 		</style>
+	
+    
 </head>
 <body>
 
@@ -46,12 +49,12 @@
 	 
   <label class="checkbox_container">
            오프라인
-            <input type="checkbox">
+           <input type="checkbox" name="checkTmp" id="checkbox1" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         <label class="checkbox_container">
             온라인
-            <input type="checkbox" >
+           <input type="checkbox" name="checkTmp" id="checkbox2" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
             
@@ -67,7 +70,7 @@
         
     		
 							<div class="writer_btn">
-									<button input type="button"class="btn_enter" style="float:right" onclick="location.href='localanw'">
+									<button input type="button"class="btn_enter" id="next" disabled style="float:right" onclick="location.href='localanw'" >
 									다음
 									</button>
 									
@@ -91,7 +94,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="resources/js/my-login.js"></script>
-	
+
+
 
 </body>
 </html>

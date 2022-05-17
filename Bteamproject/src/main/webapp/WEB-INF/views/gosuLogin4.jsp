@@ -149,8 +149,6 @@
 										
 
 							    
-								</div>
-								</div>
 
         <label class="checkbox_container">
            <a class="float-left" style="color:green" type="text" id="modal_opne_text">

@@ -47,24 +47,24 @@
 	 
   <label class="checkbox_container">
             문법
-            <input type="checkbox">
+             <input type="checkbox" name="checkTmp" id="checkbox1" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         <label class="checkbox_container">
              행정/경찰
-            <input type="checkbox" checked="checked">
+             <input type="checkbox" name="checkTmp" id="checkbox2" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
             
         <label class="checkbox_container">
             회계
-            <input type="checkbox" checked="checked">
+            <input type="checkbox" name="checkTmp" id="checkbox3" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         
         <label class="checkbox_container">
-          자
-            <input type="checkbox">
+          자바
+             <input type="checkbox" name="checkTmp" id="checkbox4" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
 
@@ -77,7 +77,7 @@
         
     		
 							<div class="writer_btn">
-									<button input type="button"class="btn_enter" style="float:right" onclick="location.href='gosuLogin3'">
+									<button input type="button"class="btn_enter"  id="next" disabled style="float:right" onclick="location.href='gosuLogin3'">
 									다음
 									</button>
 									

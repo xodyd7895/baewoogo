@@ -5,10 +5,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>GosuLogin_study</title>
+	<title>GosuLogin_invest</title>
 	<link rel="stylesheet" href="css/main.css" />
 <!-- 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <!--  -->	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -47,24 +46,24 @@
 	 
   <label class="checkbox_container">
             부동산
-            <input type="checkbox">
+             <input type="checkbox" name="checkTmp" id="checkbox1" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         <label class="checkbox_container">
              주식
-            <input type="checkbox" checked="checked">
+             <input type="checkbox" name="checkTmp" id="checkbox2" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
             
         <label class="checkbox_container">
             가상화폐
-            <input type="checkbox" checked="checked">
+             <input type="checkbox" name="checkTmp" id="checkbox3" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         
         <label class="checkbox_container">
           기타
-            <input type="checkbox">
+            <input type="checkbox" name="checkTmp" id="checkbox4" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
 
@@ -77,11 +76,11 @@
         
     		
 							<div class="writer_btn">
-									<button input type="button"class="btn_enter" style="float:right" onclick="location.href='gosuLogin_invest2'">
+									<button input type="button"class="btn_enter"  id="next" disabled style="float:right" onclick="location.href='gosuLogin_invest2'">
 									다음
 									</button>
 									
-									<button input type="button" class="btn_enter" style="float:right" onclick="location.href='gosuLogin'"> 
+									<button input type="button" class="btn_enter" style="float:right" onclick="history.back()">
 									이전
 									</button>
 								</div>
