@@ -2,10 +2,13 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 
-
+#btn-group1{
+	width:100%;
+	display: block;
+}
 #chat-container1 {
   padding-top: 100px;
-  width: 500px;
+  width: 50%;
   padding-bottom: 100px;
 }
 
@@ -113,6 +116,7 @@ color: white;
 text-decoration: none !important;
 background-color: transparent
 }
+
 .media img{
 width: 40px;height: auto
 }

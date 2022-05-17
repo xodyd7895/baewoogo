@@ -195,7 +195,7 @@
  <div class="modal-dialog">
    <div class="modal-content">
      <div class="modal-header alert alert-success">
-       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times</span></button>
+       <button type="button" data-toggle="modal" data-target="#firstmodal" data-dismiss="modal" aria-label="Close" style="border:none; background-color: rgba(0,0,0,0); float:right;"><span aria-hidden="true">&times</span></button>
        <h5 class="modal-title">제출 완료!</h5>
      </div>
       <div class="modal-body">

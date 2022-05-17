@@ -57,7 +57,7 @@
            <p class="help-block p2">견적서를 전달하고
              <br>
             고객님과 상담을 해보세요.</p>
-            <a href="http://localhost:9000/Bteamproject/chatlist">
+            <a href="http://localhost:9000/Bteamproject/requests">
           <button type="button" class="btn">견적서 보내기</button></a>
        </article>
      </div>

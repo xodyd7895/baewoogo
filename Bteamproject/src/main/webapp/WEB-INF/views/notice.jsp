@@ -39,7 +39,7 @@
   <div class="section-tree">
     <section class="section">
       <h3 class="section-tree-title">
-        <a href="http://localhost:9000/Bteamproject/notice">공지사항</a>
+       
       </h3>
     <ul class="article-list">
       <li class="article-list-item article-promoted">
@@ -77,7 +77,7 @@
       </li>
       
     </ul>
-        <a href="http://localhost:9000/Bteamproject/notice" class="see-all-articles"> 문서 모두 보기</a>
+      
       </section>
       </div>
     </div>

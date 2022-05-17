@@ -25,12 +25,12 @@
         <div class="row articles">
           <div class="col-md-4">
             <ul>
-              <a href="#">
+              <a href="http://localhost:9000/Bteamproject/ques1">
                 <li>1. 어떤 서비스인가요?</li>
               </a>
             </ul>
           <ul>
-            <a href="#">
+            <a href="http://localhost:9000/Bteamproject/ques2">
               <li>2. 고수/고객과 어떻게 거래하나요?</li>
             </a>
           </ul>

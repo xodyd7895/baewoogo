@@ -13,6 +13,8 @@ public class ForumController {
 	}
 }
 
+
+
 @Controller
 class ForumBoardController {
 
