@@ -5,8 +5,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="author" content="Kodinger">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>GosuLogin_invest</title>
 	<link rel="stylesheet" href="css/main.css" />
@@ -47,24 +46,24 @@
 	 
   <label class="checkbox_container">
             부동산
-            <input type="checkbox">
+            <input type="checkbox" name="checkTmp" id="checkbox1" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         <label class="checkbox_container">
              현물
-            <input type="checkbox" checked="checked">
+           <input type="checkbox" name="checkTmp" id="checkbox2" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
             
         <label class="checkbox_container">
             코인
-            <input type="checkbox" checked="checked">
+            <input type="checkbox" name="checkTmp" id="checkbox3" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
         
         <label class="checkbox_container">
           금
-            <input type="checkbox">
+           <input type="checkbox" name="checkTmp" id="checkbox4" value="Y"/>
             <span class="checkbox_mark"></span>
         </label>
 
@@ -77,11 +76,11 @@
         
     		
 							<div class="writer_btn">
-									<button input type="button"class="btn_enter" style="float:right" onclick="location.href='gosuLogin2'">
+									<button input type="button"class="btn_enter" id="next" disabled  style="float:right" onclick="location.href='localanw'">
 									다음
 									</button>
 									
-									<button input type="button" class="btn_enter" style="float:right"> 
+									<button input type="button" class="btn_enter" style="float:right" onclick="location.href='gosuLogin_invest"> 
 									이전
 									</button>
 								</div>

@@ -50,13 +50,13 @@
         </label>
         <label class="checkbox_container">
              산업
-            <input type="checkbox" checked="checked">
+            <input type="checkbox" >
             <span class="checkbox_mark"></span>
         </label>
             
         <label class="checkbox_container">
             환경
-            <input type="checkbox" checked="checked">
+            <input type="checkbox" >
             <span class="checkbox_mark"></span>
         </label>
         
