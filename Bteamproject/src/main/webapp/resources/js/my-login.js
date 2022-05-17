@@ -101,3 +101,15 @@ function autoHeight() {
     iframe.height = sub.body
 }
 
+
+$('input[name="checkTmp"]').change(function () {
+ var tmpLength = $('input[name="checkTmp"]').length;
+  var checkedLength = $('input[name="checkTmp"]:checked').length; 
+  var selectAll = (tmpLength == checkedLength); 
+  $('#checkAll').prop('checked');
+  $(this).prop('checked') ? $('#next').removeAttr('disabled'):$('#next').attr('disabled','disabled');
+
+   });
+
+
+
