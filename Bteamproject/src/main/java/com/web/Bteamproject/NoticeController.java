@@ -9,62 +9,43 @@ public class NoticeController {
 
 	@RequestMapping(value="/notice", method=RequestMethod.GET)
 	public String notice() {
-		return "notice";
+		return "/Notice/notice";
 	}
-}
 
-
-
-@Controller
- class Notice1Controller {
 
 	@RequestMapping(value="/notice1", method=RequestMethod.GET)
 	public String notice1() {
-		return "notice1";
+		return "/Notice/notice1";
 	}
-}
 
-@Controller
-class Notice2Controller {
 
 	@RequestMapping(value="/notice2", method=RequestMethod.GET)
 	public String notice2() {
-		return "notice2";
+		return "/Notice/notice2";
 	}
-}
 
-@Controller
-class Notice3Controller {
 
 	@RequestMapping(value="/notice3", method=RequestMethod.GET)
 	public String notice3() {
-		return "notice3";
+		return "/Notice/notice3";
 	}
-}
 
-@Controller
-class Notice4Controller {
 
 	@RequestMapping(value="/notice4", method=RequestMethod.GET)
 	public String notice4() {
-		return "notice4";
+		return "/Notice/notice4";
 	}
-}
 
-@Controller
-class Notice5Controller {
 
 	@RequestMapping(value="/notice5", method=RequestMethod.GET)
 	public String notice5() {
-		return "notice5";
+		return "/Notice/notice5";
 	}
-}
-
-@Controller
-class Notice6Controller {
 
 	@RequestMapping(value="/notice6", method=RequestMethod.GET)
 	public String notice6() {
-		return "notice6";
+		return "/Notice/notice6";
 	}
+
+
 }

@@ -9,6 +9,10 @@ public class SentController {
 
 	@RequestMapping(value="/sent", method=RequestMethod.GET)
 	public String sent() {
-		return "sent";
+		return "/Sent/sent";
+	}
+	@RequestMapping(value="/sent_sentinfo", method=RequestMethod.GET)
+	public String sent_sentinfo() {
+		return "/Sent/sent-info";
 	}
 }

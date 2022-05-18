@@ -101,8 +101,8 @@
    
       
 							<div class="writer_btn">
-									<button input type="button"class="btn_enter" style="float:right" onclick="location.href=''">
-									다음
+									<button input type="button"class="btn_enter" style="float:right" onclick="location.href='mypage'">
+									완료
 									</button>
 									
 									

@@ -9,31 +9,30 @@ public class ChatlistController {
 
 	@RequestMapping(value="/chatlist", method=RequestMethod.GET)
 	public String chatlist() {
-		return "chatlist";
+		return "/Chat/chatlist";
 	}
-}
 
-@Controller
-class requestChatController {
+
+
 
 	@RequestMapping(value="/requestChat", method=RequestMethod.GET)
 	public String requestChat() {
-		return "requestChat";
+		return "/Chat/requestChat";
 	}
-}
 
-@Controller
-class ChatFormController{
+
+
 @RequestMapping(value="/chatform", method=RequestMethod.GET)
 public String chatform() {
-	return "chatform";
+	return "/Chat/chatform";
 }
-}
-@Controller
-class SendingChatController{
+
+
 @RequestMapping(value="/sendingChat", method=RequestMethod.GET)
 public String sendingChat() {
-	return "sendingChat";
+	return "/Chat/sendingChat";
 }
+
+
 }
 

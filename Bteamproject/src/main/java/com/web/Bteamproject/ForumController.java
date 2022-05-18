@@ -9,24 +9,22 @@ public class ForumController {
 
 	@RequestMapping(value="/forum", method=RequestMethod.GET)
 	public String forum() {
-		return "forum";
+		return "/Forum/forum";
 	}
-}
 
-@Controller
-class ForumBoardController {
+
+
+
+
+
 
 	@RequestMapping(value="/forumboard", method=RequestMethod.GET)
 	public String forumboard() {
-		return "forumboard";
+		return "/Forum/forumboard";
 	}
-}
-
-@Controller
-class ForumWindow {
 
 	@RequestMapping(value="/forumwindow", method=RequestMethod.GET)
 	public String forumwindow() {
-		return "forumwindow";
+		return "/Forum/forumwindow";
 	}
 }

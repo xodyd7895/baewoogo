@@ -9,6 +9,32 @@ public class MusicserviceController {
 
 	@RequestMapping(value="/musicservice", method=RequestMethod.GET)
 	public String musicservice() {
-		return "musicservice";
+		return "/musicservice/musicservice";
 	}
+	
+	@RequestMapping(value="/acousticguitar", method=RequestMethod.GET)
+	public String acousticguitar() {
+		return "/musicservice/acousticguitar";
+	}
+	
+	@RequestMapping(value="/ballad", method=RequestMethod.GET)
+	public String ballad() {
+		return "/musicservice/ballad";
+	}
+	
+	@RequestMapping(value="/composing", method=RequestMethod.GET)
+	public String composing() {
+		return "/musicservice/composing";
+	}
+	
+	@RequestMapping(value="/piano", method=RequestMethod.GET)
+	public String piano() {
+		return "/musicservice/piano";
+	}
+	
+	
+	
+	
+	
+	
 }

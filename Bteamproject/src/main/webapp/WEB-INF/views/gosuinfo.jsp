@@ -8,7 +8,7 @@
 </head>
 <link rel="stylesheet" type="text/css" href="resources/css/gosuinfo.css">
 <body>
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="headeruser.jsp"></jsp:include>
 	<div class="sticky_line"></div>
 	<main class="gosuinfo_main">
 		<div class="gosuinfo_left">

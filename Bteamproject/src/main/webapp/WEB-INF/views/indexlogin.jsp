@@ -36,9 +36,9 @@
 								<div class="form-item">
 									<label for="password">비밀번호
 										<a href="forgot" class="float-right" style="color:green">
-											비밀번호를 잊으 셨나요?
+											&nbsp;&nbsp;비밀번호를 잊으 셨나요?
 										</a>
-									</label>
+										</label>
 									<input id="password" type="password" class="form-control" name="password" >
 								    <div class="invalid-feedback">
 								    	Password is required

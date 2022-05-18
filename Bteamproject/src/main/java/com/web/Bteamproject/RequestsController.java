@@ -9,6 +9,11 @@ public class RequestsController {
 
 	@RequestMapping(value="/requests", method=RequestMethod.GET)
 	public String requests() {
-		return "requests";
+		return "/Requests/requests";
+	}
+	
+	@RequestMapping(value="/requests_received", method=RequestMethod.GET)
+	public String requests_received() {
+		return "/Requests/received";
 	}
 }
