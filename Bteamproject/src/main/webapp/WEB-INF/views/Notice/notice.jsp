@@ -11,7 +11,7 @@
 </head>
 <body>
 <!-- header -->
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="../header.jsp"></jsp:include>
 
 <!--main -->
 <main role="main">
@@ -86,6 +86,6 @@
 </main>
 
 <!-- footer -->
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>

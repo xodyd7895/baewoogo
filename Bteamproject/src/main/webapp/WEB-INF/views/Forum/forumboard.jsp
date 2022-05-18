@@ -22,7 +22,7 @@ location.href="http://localhost:9000/Bteamproject/forum";
   </head>
 
   <body>
-  <jsp:include page="headeruser.jsp"></jsp:include>
+  <jsp:include page="../headeruser.jsp"></jsp:include>
     <div class="container" role="main" id="chat-container1">
       <h2>게시판 작성</h2>
        <form  id="form" method="post">
@@ -102,6 +102,6 @@ location.href="http://localhost:9000/Bteamproject/forum";
 
 
 
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
   </body>
 </html>

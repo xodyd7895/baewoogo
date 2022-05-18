@@ -12,7 +12,7 @@
 </head>
 <body>
 <!-- header -->
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="../header.jsp"></jsp:include>
 
 <!--main -->
 <main role="main">
@@ -25,8 +25,8 @@
         <li title="고객센터 : 공지사항">
           <a href="http://localhost:9000/Bteamproject/notice">고객센터 : 공지사항</a>
         </li>
-      <li title="공지1">
-        "공지1"
+      <li title="공지3">
+        "공지3"
       </li>
     </ol>
     <form role="search" class="search" data-search action="" accept-accept-charset="UTF-8" method="get">
@@ -41,7 +41,7 @@
     <section class="section-articles collapsible-sidebar">
       <h3 class="collapse-sidebar-title">이 섹션의 문서</h3>
        <ul>
-         <li><a href="http://localhost:9000/Bteamproject/notice1" class="sidenav-item">공지1</a></li>
+           <li><a href="http://localhost:9000/Bteamproject/notice1" class="sidenav-item">공지1</a></li>
          <li><a href="http://localhost:9000/Bteamproject/notice2" class="sidenav-item">공지2</a></li>
          <li><a href="http://localhost:9000/Bteamproject/notice3" class="sidenav-item">공지3</a></li>
          <li><a href="http://localhost:9000/Bteamproject/notice4" class="sidenav-item">공지4</a></li>
@@ -55,29 +55,31 @@
 
 <article class="article">
   <div class="article-header">
-    <h1 title="[22.03.07] 3월 9일 대통령 선거 고객센터 휴무 안내(3/9반영)" class="article-title">
-          [22.03.07] 3월 9일 대통령 선거 고객센터 휴무 안내(3/9반영)</h1>
+    <h1 title="[22.05.03] 5월 5일 고객센터 휴무 일정을 안내드립니다." class="article-title">
+          [22.05.03] 5월 5일 고객센터 휴무 일정을 안내드립니다.</h1>
   </div>
 <section class="article-info">
   <div class="article-content">
-    <div class="article-body">
-     <p>배우고싶으당을 이용하시는 고객/고수분들께 진심으로 감사 드립니다.</p>
+    <div class="article-body"><p>배우고싶으당을 이용해주시는 고수/고객분들께 안내드립니다.</p>
 <p>&nbsp;</p>
-<p>대통령선거로 인한 임시 공휴일제로 고객센터 휴무를 안내하오니&nbsp; 널리 양해해 주시기 바랍니다.</p>
+<p>5월 5일 고객센터 휴무 일정을 안내드립니다.</p>
 <p>&nbsp;</p>
-<p>휴무기간 : 3월 9일 (수)</p>
+<p>휴무기간 : 5월 5일(목)</p>
 <p>&nbsp;</p>
-<p>문의사항은 휴무 이후 순차적으로 답변 도와드리겠습니다.</p>
+<p>해당일은 고객센터 휴무로 담당자와 직접 통화 할 수 없으며,<br>배우고싶으당 이메일 
+(<a>xodyd7895@gmail.com</a>)을 통해 문의 부탁 드립니다.<br>메일을 통한 문의는 2022년 5월 6일 (금)부터 순차적으로 빠른 답변 드리도록 하겠습니다.</p>
+<p>&nbsp;</p>
 <p>감사합니다.</p></div>
    </div>
    </section>
   </div>
-  </article>
+  
+ </article>
  </div>
-
+</div>
 </main>
 
 <!-- footer -->
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>

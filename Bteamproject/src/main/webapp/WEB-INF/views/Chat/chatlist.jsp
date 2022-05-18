@@ -17,7 +17,7 @@
 </head>
 <body id="chat-body">
 <!-- header -->
-<jsp:include page="headeruser.jsp"></jsp:include>
+<jsp:include page="../headeruser.jsp"></jsp:include>
 
 <div class="container" id="chat-container">
 
@@ -208,6 +208,6 @@
 
 </div>
 <!-- footer -->
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
   </body>
 </html>

@@ -12,7 +12,7 @@
 </head>
 <body>
 <!-- header -->
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="../header.jsp"></jsp:include>
 
 <!--main -->
 <main role="main">
@@ -25,8 +25,8 @@
         <li title="고객센터 : 공지사항">
           <a href="http://localhost:9000/Bteamproject/notice">고객센터 : 공지사항</a>
         </li>
-      <li title="공지2">
-        "공지2"
+      <li title="공지6">
+        "공지6"
       </li>
     </ol>
     <form role="search" class="search" data-search action="" accept-accept-charset="UTF-8" method="get">
@@ -55,27 +55,35 @@
 
 <article class="article">
   <div class="article-header">
-    <h1 title="[22.04.21] 구글인앱 결제 의무화 적용 및 이용약관 변경 안내 (5/18반영)" class="article-title">
-          [22.05.01] 구글인앱 결제 의무화 적용 및 이용약관 변경 안내 (5/18반영)</h1>
+    <h1 title="[22.05.10] 바로견적 발송 캐시 할인율 변경 안내 (5/18반영)" class="article-title">
+	[22.05.10] 바로견적 발송 캐시 할인율 변경 안내 (5/18반영)
+</h1>
   </div>
 <section class="article-info">
   <div class="article-content">
     <div class="article-body">
-      <p><span>안녕하세요. 배우고싶으당입니다</span></p>
-      <p>&nbsp;</p>
-      <p><span>구글인앱 결제 의무화 적용으로 인해 안드로이드 app에서 제공하는 캐시 가격 및 구매/환불 방식이 변경될 예정입니다.</span></p>
-      <p>&nbsp;</p>
-      <p><strong>■약관 변경 및 적용일 : 2022년 5월18일</strong></p>
-      <p><strong>■주요 이용약관 및 변경내용 : 안드로이드 인앱결제 기능 변경 및 안드로이드 전용 상품에 따른 캐시 결제 및 환불정책 등</strong></p>
-      <p>&nbsp;</p>
-      <p><span>5월 18일부터 구글 인앱 결제 시 구글 플레이 스토어에 등록된 결제수단으로 결제가 진행되며,
-        <strong><span style="text-decoration:underline;">캐시의 취소/환불은 플레이 스토어 및 구글 플레이 고객센터(080-234-0051)로 직접 신청하셔야 합니다.</span></strong></span>
-      </p>
-      <p>&nbsp;</p>
-      <p><span>주요 변경 내용을 확인하시고 서비스 이용에 참고하여 주시길 바랍니다.</span></p>
-      <p>&nbsp;</p>
-      <p>*이용약관 변경 적용일인 2022년5월18일까지 거부의사를 표시하지 않으시는 경우, 본 변경 약관에 동의하신 것으로 봅니다.</p>
-      <p>*이용약관 변경에 동의하지 않으시는 경우에는 회원탈퇴를 진행하실 수 있습니다.</p>
+<p>안녕하세요, 배우고싶으당입니다.</p>
+<p>&nbsp;</p>
+<p>2022년 5월18일부터 바로견적 발송 캐시의 할인율이 변경되오니</p>
+<p>이용에 참고하시길 바랍니다.</p>
+<p>&nbsp;</p>
+<p><strong>[바로견적 발송 캐시 할인율]</strong></p>
+<table style="width: 150px;" border="1">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.3333px;">변경 전</td>
+<td class="wysiwyg-text-align-center" style="width: 63.3333px;"><strong>변경 후</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 63.3333px;">30%</td>
+<td class="wysiwyg-text-align-center" style="width: 63.3333px;"><strong>20%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>앞으로 더 좋은 서비스를 위해 노력하겠습니다.</p>
+<p>감사합니다.</p></div>
+     
    </div>
   </div>
   </article>
@@ -84,6 +92,6 @@
 </main>
 
 <!-- footer -->
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>

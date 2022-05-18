@@ -23,7 +23,7 @@ $(function (){
 
 </script>
     <body id="forumwindow-body">
-    <jsp:include page="headeruser.jsp"></jsp:include>
+    <jsp:include page="../headeruser.jsp"></jsp:include>
     
      <body>
       <div class="container-fluid">
@@ -118,7 +118,7 @@ $(function (){
                  
                  
 
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
     </body>
     
   </html>

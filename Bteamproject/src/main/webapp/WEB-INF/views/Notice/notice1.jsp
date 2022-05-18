@@ -12,7 +12,7 @@
 </head>
 <body>
 <!-- header -->
-<jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="../header.jsp"></jsp:include>
 
 <!--main -->
 <main role="main">
@@ -25,8 +25,8 @@
         <li title="고객센터 : 공지사항">
           <a href="http://localhost:9000/Bteamproject/notice">고객센터 : 공지사항</a>
         </li>
-      <li title="공지6">
-        "공지6"
+      <li title="공지1">
+        "공지1"
       </li>
     </ol>
     <form role="search" class="search" data-search action="" accept-accept-charset="UTF-8" method="get">
@@ -55,43 +55,29 @@
 
 <article class="article">
   <div class="article-header">
-    <h1 title="[22.05.10] 바로견적 발송 캐시 할인율 변경 안내 (5/18반영)" class="article-title">
-	[22.05.10] 바로견적 발송 캐시 할인율 변경 안내 (5/18반영)
-</h1>
+    <h1 title="[22.03.07] 3월 9일 대통령 선거 고객센터 휴무 안내(3/9반영)" class="article-title">
+          [22.03.07] 3월 9일 대통령 선거 고객센터 휴무 안내(3/9반영)</h1>
   </div>
 <section class="article-info">
   <div class="article-content">
     <div class="article-body">
-<p>안녕하세요, 배우고싶으당입니다.</p>
+     <p>배우고싶으당을 이용하시는 고객/고수분들께 진심으로 감사 드립니다.</p>
 <p>&nbsp;</p>
-<p>2022년 5월18일부터 바로견적 발송 캐시의 할인율이 변경되오니</p>
-<p>이용에 참고하시길 바랍니다.</p>
+<p>대통령선거로 인한 임시 공휴일제로 고객센터 휴무를 안내하오니&nbsp; 널리 양해해 주시기 바랍니다.</p>
 <p>&nbsp;</p>
-<p><strong>[바로견적 발송 캐시 할인율]</strong></p>
-<table style="width: 150px;" border="1">
-<tbody>
-<tr>
-<td class="wysiwyg-text-align-center" style="width: 63.3333px;">변경 전</td>
-<td class="wysiwyg-text-align-center" style="width: 63.3333px;"><strong>변경 후</strong></td>
-</tr>
-<tr>
-<td class="wysiwyg-text-align-center" style="width: 63.3333px;">30%</td>
-<td class="wysiwyg-text-align-center" style="width: 63.3333px;"><strong>20%</strong></td>
-</tr>
-</tbody>
-</table>
+<p>휴무기간 : 3월 9일 (수)</p>
 <p>&nbsp;</p>
-<p>앞으로 더 좋은 서비스를 위해 노력하겠습니다.</p>
+<p>문의사항은 휴무 이후 순차적으로 답변 도와드리겠습니다.</p>
 <p>감사합니다.</p></div>
-     
    </div>
+   </section>
   </div>
   </article>
  </div>
-</div>
+
 </main>
 
 <!-- footer -->
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>
