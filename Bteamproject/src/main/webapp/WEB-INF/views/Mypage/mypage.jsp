@@ -48,7 +48,7 @@
 </style>
 </head>
 <body class="bacset" id="bac">
-	<jsp:include page="headeruser.jsp"></jsp:include>
+	<jsp:include page="../headeruser.jsp"></jsp:include>
 
 	
 		<section class="mypage_sec1">
@@ -60,7 +60,7 @@
 		</section>
 		<section class="mypage_sec2">
 			<ul class="account-info">
-				<li class="item-container"><a href="settingname">
+				<li class="item-container"><a href="mypage_settingname">
 					<div class="item">
 						<div class="item-title">이름</div>
 						<div class="item-info">민경
@@ -70,7 +70,7 @@
 						</div>
 					</div>
 				</a></li>
-				<li class="item-container"><a href="settingemail">
+				<li class="item-container"><a href="mypage_settingemail">
 					<div class="item">
 						<div class="item-title">이메일</div>
 						<div class="item-info">민경
@@ -80,7 +80,7 @@
 						</div>
 					</div>
 				</a></li>
-	 			<li class="item-container"><a href="settingpassword">
+	 			<li class="item-container"><a href="mypage_settingpassword">
 					<div div class="item">
 						<div class="item-title">비밀번호</div>
 						<div class="item-info">민경
@@ -90,7 +90,7 @@
 						</div>
 					</div>
 				</a></li>
-				<li class="item-container"><a href="settingtel">
+				<li class="item-container"><a href="mypage_settingtel">
 					<div class="item">
 						<div class="item-title">휴대전화 번호</div>
 						<div class="item-info">민경
@@ -122,7 +122,7 @@
 				
 		</section>
 
-	<jsp:include page="footer.jsp"></jsp:include>
+	<jsp:include page="../footer.jsp"></jsp:include>
 
 <script src="resources/js/outpop.js"></script>
 </body>

@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="resources/css/settingname.css">
 </head>
 <body>
-<jsp:include page="headergosu.jsp"></jsp:include>
+<jsp:include page="../headergosu.jsp"></jsp:include>
 	<div class="line"></div>
 	<div class="setting-cont">
 		<h1 class="setting-title">비밀번호 수정</h1>
@@ -37,7 +37,7 @@
 			</div>
 		</section>
 	</div>
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 <script src="resources/js/settingpassword.js"></script>
 </body>
 </html>

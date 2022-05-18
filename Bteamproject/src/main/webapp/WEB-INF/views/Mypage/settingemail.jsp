@@ -8,13 +8,13 @@
 <link rel="stylesheet" href="resources/css/settingname.css">
 </head>
 <body>
-<jsp:include page="headergosu.jsp"></jsp:include>
+<jsp:include page="../headergosu.jsp"></jsp:include>
 	<div class="line"></div>
 	<div class="setting-cont">
-		<h1 class="setting-title">이름 수정</h1>
+		<h1 class="setting-title">이메일 수정</h1>
 		<section class="setting-sec1">
-			<div class="subtitle">이름</div>
-			<div class="inputbox"><input id ="setting_name" value="#" type="text" placeholder="이름을 입력해주세요"></div>
+			<div class="subtitle">이메일</div>
+			<div class="inputbox"><input id ="setting_email" value="#" type="email" placeholder="이메일을 입력해주세요"></div>
 		</section>
 		<section class="setting-sec2">
 			<div class="btn-cont">
@@ -25,6 +25,6 @@
 			</div>
 		</section>
 	</div>
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>
