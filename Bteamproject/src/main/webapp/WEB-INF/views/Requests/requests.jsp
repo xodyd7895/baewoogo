@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="resources/css/requests.css">
 </head>
 <body>
-<jsp:include page="headergosu.jsp"></jsp:include>
+<jsp:include page="../headergosu.jsp"></jsp:include>
 	<div class="requests-main">
 		<div class="requests-title">
 			<h1>받은 요청</h1>
@@ -18,7 +18,7 @@
 			<ul class="requests-ul">
 				<li class="requests-li">
 					<div class="li-cont">
-						<a href="received">
+						<a href="requests_received">
 							<div class="li-img"><img alt="" src="resources/images/남자1.jpeg"> </div>
 							<div class="requests-info">
 								<div class="user-id">gweg3242@naver.com</div>
@@ -58,6 +58,6 @@
 			</ul>
 		</div>
 	</div>
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>

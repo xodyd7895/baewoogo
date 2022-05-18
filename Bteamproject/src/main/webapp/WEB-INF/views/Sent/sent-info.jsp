@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="resources/css/sent-info.css">
 </head>
 <body>
-<jsp:include page="headeruser.jsp"></jsp:include>
+<jsp:include page="../headeruser.jsp"></jsp:include>
 
 <div class="info-main">
 	<div class="info-title"><h1>견적서</h1></div>
@@ -37,6 +37,6 @@
 
 
 
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>

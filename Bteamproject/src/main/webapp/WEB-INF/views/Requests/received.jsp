@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="resources/css/received.css">
 </head>
 <body>
-<jsp:include page="headergosu.jsp"></jsp:include>
+<jsp:include page="../headergosu.jsp"></jsp:include>
 	<div class="recevied">
 		<div class="recevied-main">
 			<div class="received-title"><h1>견적보내기</h1></div>
@@ -54,6 +54,6 @@
 		</div>
 	</div>
 
-<jsp:include page="footer.jsp"></jsp:include>
+<jsp:include page="../footer.jsp"></jsp:include>
 </body>
 </html>
